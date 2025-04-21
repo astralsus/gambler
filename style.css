@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+#machineWrapper {
+  background-color: #111;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 255, 0, 0.4);
+  text-align: center;
+}
+
+#slotMachine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.reel {
+  background-color: #222;
+  border: 2px solid #0f0;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+#spinButton {
+  padding: 12px 24px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+#spinButton:hover {
+  background-color: #218838;
+}
+
+#lever {
+  width: 30px;
+  height: 100px;
+  background: #555;
+  border-radius: 15px;
+  margin: 10px auto;
+  cursor: grab;
+  transition: top 0.2s ease;
+  position: relative;
+}
+
+#result, #balance {
+  margin-top: 15px;
+  font-size: 20px;
+}
