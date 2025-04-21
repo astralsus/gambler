@@ -1,0 +1,2 @@
+# gambler
+GAMBLE IT ALL
